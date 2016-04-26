@@ -42,6 +42,8 @@ for($i = 0;$i < $num_results;$i++){
 }
 $result->free();
 $db->close();
+//释放资源并关闭数据库
+
 ?>
 </body>
 </html>
